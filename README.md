@@ -12,9 +12,10 @@
 | 仓库 | 一句话 | 关键数字 |
 |---|---|---|
 | [mini-vla-pi0](https://github.com/yimingjiang216-alt/mini-vla-pi0) | π0 风格迷你 VLA（手写 ViT + Flow Matching），语言指令真实参与决策；含演示视频与一键复现脚本 | 2.38M 参数 / 语意响应 gap ≈0.96 / CPU 7 分钟训完 |
+| [pi05-libero-sim](https://github.com/yimingjiang216-alt/pi05-libero-sim) | 开源 π0.5（LIBERO 微调权重，3B）在 Kaggle 免费 T4 上驱动 LIBERO/robosuite 机械臂完成取物任务；附从 0/3 到 3/3 的完整排错记录（离线 demo 对拍定位权重静默错位） | 成功率 3/3 / 87–90 步 / 单卡 T4 |
 | [vision-worldmodel-projects](https://github.com/yimingjiang216-alt/vision-worldmodel-projects) | 动作条件视频世界模型（DiT + adaLN-zero + CFG），ONNX 浏览器实时推理；诚实报告「动作可控性未通过」的完整评估 | 生成 MAE 0.125 / 响应比 1.67x @CFG=16 |
 
-🔗 **闭环**：VLA 出动作 → 世界模型视角渲染"想象未来"；两仓库共享同一套 3D 导航数据管线（`data.py` 逐字节相同）——对应「世界模型为 VLA 批量生成训练数据」路线。
+🔗 **闭环**：VLA 出动作 → 世界模型视角渲染"想象未来"（两仓库共享同一套 3D 导航数据管线）；从 2.38M 迷你自训（mini-vla）到 3B 开源微调权重驱动真机械臂基准（pi05-libero-sim），同一套 π0 范式在两种尺度上验证。
 
 ## 🗺️ 视觉几何线 —— 离线重建 ⇄ 在线定位 闭环
 
