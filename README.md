@@ -29,12 +29,6 @@
 
 🔗 **闭环**：精读 → 复刻验证 → 方法论沉淀 → 每日在真实管线中运转。
 
-## 📚 学习输入（2026-09 调研期）
-
-[DrClaw](https://github.com/yimingjiang216-alt/DrClaw) · [NanoResearch](https://github.com/yimingjiang216-alt/NanoResearch) · [P1-VL](https://github.com/yimingjiang216-alt/P1-VL) · [ToolUniverse](https://github.com/yimingjiang216-alt/ToolUniverse) · [hypit](https://github.com/yimingjiang216-alt/hypit) · [wechat](https://github.com/yimingjiang216-alt/wechat)
-
-动手之前广泛调研他人 AI / Agent 项目的痕迹——上面的输出线从这里开始。
-
 ## 🧭 横贯所有仓库的原则
 
 **如实报告阴性结果与局限**：世界模型「动作可控性未通过」（附完整评估方法）、SLAM 回环「曾致 ATE 恶化 340% → 归因 → 跨序列修复验证」、3DGS「PSNR 未记录，不做数值结论」、mini-vla README 记录 ODE 方向写反的调试复盘。量化结论必须有真值或先在真值上校准；定性定量分开说。
